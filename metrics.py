@@ -72,7 +72,7 @@ for dt in daterange(last_sunday, today):
         month = [i for i in month]
         month = month[-1] 
     if int(day) < 10:
-        day = [i for i in day]
+        day = [i for i in day] 
         day = day[-1]
 
     format = month+'/'+day+'/'+year
